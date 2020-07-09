@@ -15,6 +15,7 @@
 
 ## Features
 √ Automatically convert svg to font file when building
+
 √ Based on the svg file name, create the `CSS` and `Stylus`, `SASS`, and `LESS` files as you want
 
 🔔 `nuxt-iconfont-generator` uses Fontagon functionality as it is. See the [**Fontagon documentation**](https://github.com/kdydesign/fontagon/tree/master/packages/fontagon)
