@@ -1,0 +1,66 @@
+{
+  "name": "nuxt-iconfont-generator",
+  "version": "1.0.0",
+  "description": "Convert SVG to Font easily and use it as icon-font",
+  "main": "lib/module.js",
+  "homepage": "https://github.com/kdydesign/nuxt-iconfont-generator",
+  "repository": "https://github.com/kdydesign/nuxt-iconfont-generator",
+  "bugs": {
+    "url": "https://github.com/kdydesign/nuxt-iconfont-generator/issues",
+    "email": "kdydesign@gmail.com"
+  },
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "lint": "eslint lib test",
+    "test": "yarn lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxtjs",
+    "nuxt-module",
+    "iconfont",
+    "webfont",
+    "fontagon",
+    "nuxt-font"
+  ],
+  "contributors": [
+    {
+      "name": "Dev.DY <kdydesign@gmail.com>"
+    }
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "consola": "^2.14.0",
+    "fontagon": "^1.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  }
+}
