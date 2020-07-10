@@ -19,6 +19,7 @@
 
 🔔 `nuxt-iconfont-generator` uses Fontagon functionality as it is. See the [**Fontagon documentation**](https://github.com/kdydesign/fontagon/tree/master/packages/fontagon)
 
+
 ## Install
 ⚠️ If you are using Nuxt older than **v2.9** you have to install module as a dependency (No --dev or --save-dev flags) and also use `modules` section in` nuxt.config.js` instead of `buildModules`.
 
@@ -44,7 +45,8 @@ module.exports = {
 ## Options
 
 ### `files`
-List of SVG files.<br>
+List of SVG files.
+
 🔔 *The files option `srcDir` in Nuxt is root path.*
 
 * Type: `Array`
@@ -54,7 +56,8 @@ List of SVG files.<br>
 <br>
 
 ### `dist`
-Directory for generated font files.<br>
+Directory for generated font files.
+
 🔔 *The dist option `srcDir` in Nuxt is root path.*
 
 * Type: `String`
@@ -81,9 +84,11 @@ stylesheet file generation type.
 
 ### `styleTemplate`
 Specify a custom style template.
-<br>
+
+
 The **'.hbs'** extension is required because the custom template is compiled through [handlebars](https://handlebarsjs.com/).
-<br>
+
+
 If the `style` is **'all'**, only one pre-processor template is specified in the `styleTemplate`, 
 it is merged with the default option and processed.
 
@@ -104,7 +109,8 @@ it is merged with the default option and processed.
 
 ### `classOptions`
 Additional options for CSS templates, that extends default options.
-<br>
+
+
 When **'baseClass'** is set, it is specified by the default class name of the stylesheet, 
 or **'classPrefix'** as a sub class factor of the stylesheet.
 
@@ -117,7 +123,7 @@ or **'classPrefix'** as a sub class factor of the stylesheet.
   }
 ```
 
-<br>
+
 
 ### `order`
 Order of `src` values in `font-face` in CSS file.
@@ -125,7 +131,7 @@ Order of `src` values in `font-face` in CSS file.
 * Type: `Array`
 * Default: `['eot', 'woff2', 'woff', 'ttf', 'svg']`
 
-<br>
+
 
 ### `rename`
 Function that takes path of file and return name of icon.
@@ -133,7 +139,7 @@ Function that takes path of file and return name of icon.
 * Type: `Function`
 * Default: basename of file
 
-<br>
+
 
 ### `startCodepoint`
 Starting codepoint. Defaults to beginning of unicode private area.
@@ -141,7 +147,7 @@ Starting codepoint. Defaults to beginning of unicode private area.
 * Type: `Number`
 * Default: `0xF101`
 
-<br>
+
 
 ### `codepoints`
 Specific codepoints for certain icons.
@@ -151,7 +157,7 @@ Icons without codepoints will have codepoints incremented from `startCodepoint` 
 * Type: `Object`
 * Default: `{}`
 
-<br>
+
 
 ### `formatOptions`
 Specific per format arbitrary options to pass to the generator
@@ -174,7 +180,7 @@ format and matching generator:
 - `woff` - [ttf2woff](https://github.com/fontello/ttf2woff).
 - `eot` - [ttf2eot](https://github.com/fontello/ttf2eot).
 
-<br>
+
 
 ### `writeFiles`
 It is possible to not create files and get generated fonts in object to write them to files later.
