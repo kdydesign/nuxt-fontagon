@@ -33,9 +33,9 @@ nuxt.config.js:
 
 ```js
 module.exports = {
-  buildModules: [{
+  buildModules: [
     'nuxt-iconfont-generator'
-  }],
+  ],
   iconFont: {
     /* Fontagon options */
   }
