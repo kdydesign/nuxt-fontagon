@@ -27,6 +27,10 @@ describe('module', () => {
     await nuxt.close()
   })
 
-  test('nuxt-alias', () => {
+  test('nuxt-iconfont-generator', () => {
+    expect(nuxt.options).toHaveProperty('iconFont')
+
+    expect(nuxt.options.iconFont).toHaveProperty('files')
+    expect(nuxt.options.iconFont).toHaveProperty('dist')
   })
 })
