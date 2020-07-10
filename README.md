@@ -198,10 +198,10 @@ Also results object will have function `generateCss([urls])` where `urls` is an 
 Copyright (c) [Dev.DY](https://kdydesign.github.io/)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-alias?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-alias
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-alias?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-alias
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-iconfont-generator?style=flat-square
+[npm-version-href]: https://npmjs.com/package/nuxt-iconfont-generator
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-iconfont-generator?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/nuxt-iconfont-generator
 [circle-ci-src]: https://img.shields.io/circleci/project/github/kdydesign/nuxt-iconfont-generator/master.svg?style=flat-square
 [circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-iconfont-generator/tree/master
 [codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-iconfont-generator.svg?style=flat-square
@@ -210,4 +210,4 @@ Copyright (c) [Dev.DY](https://kdydesign.github.io/)
 [david-dm-href]: https://david-dm.org/kdydesign/nuxt-iconfont-generator
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
-[license-src]: https://img.shields.io/npm/l/nuxt-alias?style=flat-square
+[license-src]: https://img.shields.io/npm/l/nuxt-iconfont-generator?style=flat-square
