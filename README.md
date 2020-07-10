@@ -123,7 +123,7 @@ or **'classPrefix'** as a sub class factor of the stylesheet.
   }
 ```
 
-
+<br>
 
 ### `order`
 Order of `src` values in `font-face` in CSS file.
@@ -131,7 +131,7 @@ Order of `src` values in `font-face` in CSS file.
 * Type: `Array`
 * Default: `['eot', 'woff2', 'woff', 'ttf', 'svg']`
 
-
+<br>
 
 ### `rename`
 Function that takes path of file and return name of icon.
@@ -139,7 +139,7 @@ Function that takes path of file and return name of icon.
 * Type: `Function`
 * Default: basename of file
 
-
+<br>
 
 ### `startCodepoint`
 Starting codepoint. Defaults to beginning of unicode private area.
@@ -147,7 +147,7 @@ Starting codepoint. Defaults to beginning of unicode private area.
 * Type: `Number`
 * Default: `0xF101`
 
-
+<br>
 
 ### `codepoints`
 Specific codepoints for certain icons.
@@ -157,7 +157,7 @@ Icons without codepoints will have codepoints incremented from `startCodepoint` 
 * Type: `Object`
 * Default: `{}`
 
-
+<br>
 
 ### `formatOptions`
 Specific per format arbitrary options to pass to the generator
@@ -180,7 +180,7 @@ format and matching generator:
 - `woff` - [ttf2woff](https://github.com/fontello/ttf2woff).
 - `eot` - [ttf2eot](https://github.com/fontello/ttf2eot).
 
-
+<br>
 
 ### `writeFiles`
 It is possible to not create files and get generated fonts in object to write them to files later.
@@ -189,6 +189,7 @@ Also results object will have function `generateCss([urls])` where `urls` is an 
 
 * Type: `Boolean`
 * Default: `true`
+
 
 ## License
 
