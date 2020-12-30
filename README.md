@@ -1,4 +1,4 @@
-# 🐾 Nuxt-IconFont-Generator
+# 🐾 Nuxt-Fontagon
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
@@ -6,17 +6,20 @@
 [![Standard JS][standard-js-src]][standard-js-href]
 ![License][license-src]
 
+> Easy convert SVG from nuxt to icon font.
 > Try converting svg into font easily to make icon-font automatically. 
 > The Icon-Font generator [**Fontagon**](https://github.com/kdydesign/fontagon) is available on the Nuxt module.
 
 ## Infos
+> 🔔 This package has been renamed from `nuxt-iconfont-generator` to `nuxt-fontagon`
+
 - [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Features
 √ Automatically convert svg to font file when building<br>
 √ Based on the svg file name, create the `CSS` and `Stylus`, `SASS`, and `LESS` files as you want
 
-🔔 `nuxt-iconfont-generator` uses Fontagon functionality as it is. See the [**Fontagon documentation**](https://github.com/kdydesign/fontagon/tree/master/packages/fontagon)
+🔔 `nuxt-fontagon` uses Fontagon functionality as it is. See the [**Fontagon documentation**](https://github.com/kdydesign/fontagon/tree/master/packages/fontagon)
 
 
 ## Install
@@ -25,7 +28,7 @@
 Install with npm:
 
 ```bash
-npm install nuxt-iconfont-generator
+npm install nuxt-fontagon
 ```
 
 nuxt.config.js:
@@ -33,7 +36,7 @@ nuxt.config.js:
 ```js
 module.exports = {
   buildModules: [
-    'nuxt-iconfont-generator'
+    'nuxt-fontagon'
   ],
   iconFont: {
     /* Fontagon options */
@@ -197,16 +200,16 @@ Also results object will have function `generateCss([urls])` where `urls` is an 
 Copyright (c) [Dev.DY](https://kdydesign.github.io/)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-iconfont-generator?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-iconfont-generator
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-iconfont-generator?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-iconfont-generator
-[circle-ci-src]: https://img.shields.io/circleci/project/github/kdydesign/nuxt-iconfont-generator/master.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-iconfont-generator/tree/master
-[codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-iconfont-generator.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/kdydesign/nuxt-iconfont-generator
-[david-dm-src]: https://david-dm.org/kdydesign/nuxt-iconfont-generator/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/kdydesign/nuxt-iconfont-generator
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-fontagon?style=flat-square
+[npm-version-href]: https://npmjs.com/package/nuxt-fontagon
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-fontagon?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/nuxt-fontagon
+[circle-ci-src]: https://img.shields.io/circleci/project/github/kdydesign/nuxt-fontagon/master.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-fontagon/tree/master
+[codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-fontagon.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/kdydesign/nuxt-fontagon
+[david-dm-src]: https://david-dm.org/kdydesign/nuxt-fontagon/status.svg?style=flat-square
+[david-dm-href]: https://david-dm.org/kdydesign/nuxt-fontagon
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
-[license-src]: https://img.shields.io/npm/l/nuxt-iconfont-generator?style=flat-square
+[license-src]: https://img.shields.io/npm/l/nuxt-fontagon?style=flat-square

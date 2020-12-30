@@ -1,12 +1,12 @@
 {
-  "name": "nuxt-iconfont-generator",
+  "name": "nuxt-fontagon",
   "version": "1.0.1",
-  "description": "Convert SVG to Font easily and use it as icon-font",
+  "description": "Easy convert SVG from nuxt to icon font.",
   "main": "lib/module.js",
-  "homepage": "https://github.com/kdydesign/nuxt-iconfont-generator",
-  "repository": "https://github.com/kdydesign/nuxt-iconfont-generator",
+  "homepage": "https://github.com/kdydesign/nuxt-fontagon",
+  "repository": "https://github.com/kdydesign/nuxt-fontagon",
   "bugs": {
-    "url": "https://github.com/kdydesign/nuxt-iconfont-generator/issues",
+    "url": "https://github.com/kdydesign/nuxt-fontagon/issues",
     "email": "kdydesign@gmail.com"
   },
   "scripts": {

@@ -27,7 +27,7 @@ describe('module', () => {
     await nuxt.close()
   })
 
-  test('nuxt-iconfont-generator', () => {
+  test('nuxt-fontagon', () => {
     expect(nuxt.options).toHaveProperty('iconFont')
 
     expect(nuxt.options.iconFont).toHaveProperty('files')
