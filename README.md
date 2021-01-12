@@ -10,10 +10,11 @@
 > Try converting svg into font easily to make icon-font automatically. 
 > The Icon-Font generator [**Fontagon**](https://github.com/kdydesign/fontagon) is available on the Nuxt module.
 
-## Infos
+## Info
 > 🔔 This package has been renamed from `nuxt-iconfont-generator` to `nuxt-fontagon`
 
 - [📖 **Release Notes**](./CHANGELOG.md)
+- [💻 **CodeSandbox**](https://codesandbox.io/s/nuxt-fontagon-example-0gqg0?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Features
 √ Automatically convert svg to font file when building<br>
