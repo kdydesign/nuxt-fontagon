@@ -11,28 +11,31 @@
 > The Icon-Font generator [**Fontagon**](https://github.com/kdydesign/fontagon) is available on the Nuxt module.
 
 ## Info
+
 > 🔔 This package has been renamed from `nuxt-iconfont-generator` to `nuxt-fontagon`
 
 - [📖 **Release Notes**](./CHANGELOG.md)
 - [💻 **CodeSandbox**](https://codesandbox.io/s/nuxt-fontagon-example-0gqg0?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Features
+
 √ Automatically convert svg to font file when building<br>
 √ Based on the svg file name, create the `CSS` and `Stylus`, `SASS`, and `LESS` files as you want
 
 🔔 `nuxt-fontagon` uses Fontagon functionality as it is. See the [**Fontagon documentation**](https://github.com/kdydesign/fontagon/tree/master/packages/fontagon)
 
-
 ## Install
-⚠️ If you are using Nuxt older than **v2.9** you have to install module as a dependency (No --dev or --save-dev flags) and also use `modules` section in` nuxt.config.js` instead of `buildModules`.
 
-Install with npm:
+1. Add `nuxt-fontagon` dependency to your project
 
 ```bash
-npm install nuxt-fontagon
+# Using npm
+npm install --save-dev nuxt-fontagon
+# Using yarn
+yarn add --dev nuxt-fontagon
 ```
 
-nuxt.config.js:
+2. Add `nuxt-fontagon` to the `buildModules` section of `nuxt.config.js`
 
 ```js
 module.exports = {
@@ -45,9 +48,12 @@ module.exports = {
 }
 ```
 
+⚠️ If you are using `nuxt < 2.9.0`, use `modules` property instead and install it as a dependency (no `--dev` or `--save-dev` flags).
+
 ## Options
 
 ### `files`
+
 List of SVG files.
 
 🔔 *The files option `srcDir` in Nuxt is root path.*
@@ -59,6 +65,7 @@ List of SVG files.
 <br>
 
 ### `dist`
+
 Directory for generated font files.
 
 🔔 *The dist option `srcDir` in Nuxt is root path.*
@@ -69,6 +76,7 @@ Directory for generated font files.
 <br>
 
 ### `fontName`
+
 Specify a font name and the default name for the font file.
 
 * Type: `String`
@@ -77,6 +85,7 @@ Specify a font name and the default name for the font file.
 <br>
 
 ### `style`
+
 stylesheet file generation type.
 
 * Type: `String`
@@ -86,6 +95,7 @@ stylesheet file generation type.
 <br>
 
 ### `styleTemplate`
+
 Specify a custom style template.
 
 
@@ -111,6 +121,7 @@ it is merged with the default option and processed.
 <br>
 
 ### `classOptions`
+
 Additional options for CSS templates, that extends default options.
 
 
@@ -129,6 +140,7 @@ or **'classPrefix'** as a sub class factor of the stylesheet.
 <br>
 
 ### `order`
+
 Order of `src` values in `font-face` in CSS file.
 
 * Type: `Array`
@@ -137,6 +149,7 @@ Order of `src` values in `font-face` in CSS file.
 <br>
 
 ### `rename`
+
 Function that takes path of file and return name of icon.
 
 * Type: `Function`
@@ -145,6 +158,7 @@ Function that takes path of file and return name of icon.
 <br>
 
 ### `startCodepoint`
+
 Starting codepoint. Defaults to beginning of unicode private area.
 
 * Type: `Number`
@@ -153,6 +167,7 @@ Starting codepoint. Defaults to beginning of unicode private area.
 <br>
 
 ### `codepoints`
+
 Specific codepoints for certain icons.
 <br>
 Icons without codepoints will have codepoints incremented from `startCodepoint` skipping duplicates.
@@ -186,6 +201,7 @@ format and matching generator:
 <br>
 
 ### `writeFiles`
+
 It is possible to not create files and get generated fonts in object to write them to files later.
 <br>
 Also results object will have function `generateCss([urls])` where `urls` is an object with future fonts urls.
