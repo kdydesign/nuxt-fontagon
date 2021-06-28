@@ -6,5 +6,8 @@ module.exports = {
   },
   extends: [
     '@nuxtjs'
-  ]
+  ],
+  rules: {
+    'node/no-path-concat': 'off'
+  }
 }
