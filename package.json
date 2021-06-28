@@ -1,6 +1,6 @@
 {
   "name": "nuxt-fontagon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy convert SVG from nuxt to icon font.",
   "main": "lib/module.js",
   "homepage": "https://github.com/kdydesign/nuxt-fontagon",
